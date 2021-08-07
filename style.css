@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.custom-shape-divider-top-1627708738 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  color: aqua;
+}
+
+
+.custom-shape-divider-top-1627708945 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1627708945 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 84px;
+}
+
+.custom-shape-divider-top-1627708945 .shape-fill {
+  fill: #FFFFFF;
+}
+.shape-fill{
+  color: aqua;
+}
+
+.bear {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 4px; 
+    margin: 55px 100px;
+  }
+
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 30%;
+    /* max-width: 25%; */
+    /* padding: 0 70px; */
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+   
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .center-element{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+.custom-shape-divider-bottom-1628276949 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+
+}
+
+.custom-shape-divider-bottom-1628276949 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 170px;
+}
+
+.custom-shape-divider-bottom-1628276949 .shape-fill {
+  fill: #f0f7f5;
+}
+
+
+
+.custom-shape-divider-top-1628276761 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+}
+
+.custom-shape-divider-top-1628276761 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 293px;
+}
+
+.custom-shape-divider-top-1628276761 .shape-fill {
+  fill: #f0f7f5;
+}
+.ack{
+  position: relative;
+  top: -320px;
+}
+
+.contact{
+  position: relative;
+  top: -280px;
+
+}
